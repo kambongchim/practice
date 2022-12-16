@@ -1,0 +1,3 @@
+courseID, courseName, Instructor
+CS 101, Intro to Python, Python Porg
+CS 102, Intro to intermeridate Python, Bill Python

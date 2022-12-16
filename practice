@@ -1,0 +1,20 @@
+import xml.etree.ElementTree as ET
+tree = ET.parse('hackerrank.xml')
+root = tree.getroot()
+print('')
+
+#print(root.tag)
+#print(root.attrib)
+#print(root.tag[0])
+level = 0
+maxdepth = level + 1
+
+#print(root[0][0].tag, root[2].tag)
+
+#print((root[0].tag)) # country tag
+
+print(len(root[0][0].attrib)) # rank = root[0][0] {}
+#print
+
+#for child in root[0]:
+#    print(child.tag, child.attrib)
